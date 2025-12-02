@@ -1,0 +1,27 @@
+init_x_dev_
+init_y_dev_
+init_z_dev_
+init_a_dev_
+publish_point_cloud_rate_
+grid_slice_z_
+publish_grid_slice_rate_
+sensor_dev_
+sensor_range_
+voxel_size_
+num_particles_
+odom_x_mod_
+odom_y_mod_
+odom_z_mod_
+odom_a_mod_
+resample_interval_
+update_rate_
+d_th_
+a_th_
+take_off_height_
+alpha_
+
+source install/setup.bash
+ros2 launch amcl3d amcl3d_launch.py
+
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>amcl3d</name>
+  <version>1.0.0</version>
+  <description>
+    <p>
+      Adaptive Monte Carlo Localization (AMCL) in 3D.
+    </p>
+    <p>
+      amcl3d is a probabilistic algorithm to localizate a robot moving in 3D.
+      It uses Monte-Carlo Localization, i.e. a particle filter.
+      This package use a laser sensor and radio-range sensors to localizate a UAV within a known map.
+    </p>
+  </description>
+  <url>http://wiki.ros.org/amcl3d</url>
+  <author email="fjperez@catec.aero">Francisco J.Perez-Grau </author>
+  <maintainer email="fcuesta@catec.aero">Francisco Cuesta Rodriguez </maintainer>
+  <maintainer email="pcarrasco@catec.aero"> Paloma Carrasco Fernandez </maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>octomap</build_depend>
+  <build_depend>pcl</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rosinrange_msg</build_depend> 
+
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>octomap</exec_depend>
+  <exec_depend>pcl</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <exec_depend>rosinrange_msg</exec_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  
+</package>
